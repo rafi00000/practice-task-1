@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+
+.head{
+    font-size: x-large;
+    color: teal;
+    font-family: cursive;
+    text-decoration: underline teal 5px;
+    text-align: center;
+    margin: 10px 0px;
+}
