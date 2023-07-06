@@ -1,21 +1,75 @@
 *{
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
 }
 
-header{
-    background: #000;
-    display: flex;
-    justify-content: space-around;
+/* nav bar design */
+
+.menu-container{
+    background-color: gray ;
     padding: 20px;
-    list-style: none;
     color: white;
+    font-family: cursive;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
 }
-header img{
+
+.nav-logo-photo{
+    width: 50px;
     height: 50px;
 }
 
-nav-menu{
- 
+.nav-menu{
+    display: flex;
 }
+
+.item{
+    margin: 10px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.item:hover{
+    color: red;
+}
+
+/* nav bar design ends here */
+
+/* banner design section here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/images/bg\ 2.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img{
+    width:500px
+}
+
+.banner-button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* this class is set as utility class */
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* utility class ends */
+
+/* banner design section ends here */
